@@ -1,10 +1,11 @@
 import React from "react"
 
 const Header = props => {
-    const [ title ] = props
+    const { nasaData } = props
+    console.log(props)
     return (
     <div className="imageTitle">
-        <p>`{title}`</p>
+        <p>{nasaData.title}</p>
     </div>
     )
 }
