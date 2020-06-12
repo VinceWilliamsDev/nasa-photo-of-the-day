@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <Header nasaData={nasaData}/>
       <Photo nasaData={nasaData}/>
-      {/* <Info nasaData={nasaData}/> */}
+      <Info nasaData={nasaData}/>
     </div>
   )
 
